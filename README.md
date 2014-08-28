@@ -1,4 +1,4 @@
 Pyblish Houdini
 ===============
 
-Integration of Sidefx Houdini for Publish
+Integration of Sidefx Houdini for Pyblish
