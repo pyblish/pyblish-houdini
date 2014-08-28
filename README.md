@@ -1,4 +1,4 @@
-publish-houdini
+Pyblis Houdini
 ===============
 
-Sidefx Houdini integration of Publish
+Integration of Sidefx Houdini for Publish
