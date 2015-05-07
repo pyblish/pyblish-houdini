@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Please note, that the files that define the main menu (ie,
+     MainMenuCommon, MainMenuMaster, and MainMenuEscape)
+     can exist in $HOME/houdiniX.Y/ directory and will supplement 
+     the original definitions found in $HFS/houdini/ 
+     The XML elements shown in this example file should be included in
+     one of the official file names (eg, MainMenuCommon) for them to take 
+     effect in Houdini. 
+-->
+
+<!-- Please see menu.xsd for the menu validation schema. -->
+
+<mainMenu>
+  <menuBar>
+    <addScriptItem id="h.pyblish">
+    <parent>file_menu</parent>
+    <label>Pyblish</label>
+    <scriptArgs></scriptArgs>
+    </addScriptItem>
+  </menuBar>
+</mainMenu>
