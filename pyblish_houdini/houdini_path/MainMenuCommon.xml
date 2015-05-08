@@ -7,12 +7,7 @@
     <label>Publish</label>
     <insertAfter>h.save_as</insertAfter>
     <scriptCode><![CDATA[# In Houdini
-from pyblish_win import util
-util.augment_pythonpath()
-util.augment_path()
-
 import pyblish_houdini
-pyblish_houdini.setup()
 pyblish_houdini.show()]]></scriptCode>
     <scriptArgs></scriptArgs>
     </addScriptItem>
