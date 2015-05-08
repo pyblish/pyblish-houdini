@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mainMenu>
+  <menuBar>
+    <addScriptItem id="h.pyblish">
+    <parent>file_menu</parent>
+    <label>Publish</label>
+    <insertAfter>h.save_as</insertAfter>
+    <scriptCode><![CDATA[# In Houdini
+import pyblish_houdini
+pyblish_houdini.show()]]></scriptCode>
+    <scriptArgs></scriptArgs>
+    </addScriptItem>
+  </menuBar>
+</mainMenu>
