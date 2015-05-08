@@ -11,7 +11,7 @@ class SelectCurrentFile(pyblish.api.Selector):
 
     """
 
-    hosts = ['maya']
+    hosts = ['houdini']
     version = (0, 1, 0)
 
     def process_context(self, context):
