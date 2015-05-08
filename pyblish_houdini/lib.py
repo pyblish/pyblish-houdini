@@ -12,7 +12,6 @@ Attributes:
 import os
 import sys
 import random
-import inspect
 import traceback
 import subprocess
 import contextlib
@@ -156,7 +155,6 @@ def setup_endpoint():
 
     """
 
-
     from service import HoudiniService
     from pyblish_endpoint import server
 
@@ -174,7 +172,6 @@ def register_plugins():
     plugin_path = os.path.dirname(plugins.__file__)
     pyblish.api.register_plugin_path(plugin_path)
     echo("pyblish: Registered %s" % plugin_path)
-
 
 
 def find_next_port():
