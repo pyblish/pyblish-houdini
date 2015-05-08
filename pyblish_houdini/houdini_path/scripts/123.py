@@ -1,5 +1,3 @@
-__author__ = 'milan.kolar'
-
 try:
     __import__("pyblish_houdini")
 

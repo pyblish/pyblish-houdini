@@ -1,5 +1,3 @@
-__author__ = 'milan.kolar'
-
 from version import *
 
 from lib import (

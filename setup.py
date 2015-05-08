@@ -46,7 +46,8 @@ setup(
     classifiers=classifiers,
     package_data={
         'pyblish_houdini': ['plugins/*.py',
-                            'houdini_path/*.py']
+                            'houdini_path/*.py',
+                            'houdini_path/scripts/*.py']
     },
     install_requires=["pyblish>=1.0.12",
                       "pyblish-endpoint>=1.1.0",
