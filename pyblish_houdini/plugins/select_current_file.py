@@ -14,7 +14,7 @@ class SelectCurrentFile(pyblish.api.Selector):
     hosts = ['houdini']
     version = (0, 1, 0)
 
-    def process_context(self, context):
+    def process(self, context):
         """Todo, inject the current working file"""
         current_file = hou.hipFile.path()
         context.set_data('currentFile', value=current_file)
