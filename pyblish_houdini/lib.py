@@ -33,12 +33,16 @@ def setup(console=False):
     pyblish_integration.register_dispatch_wrapper(threaded_wrapper)
     pyblish_integration.setup(console)
 
-    pyblish.api.register_host("hpython")
-    pyblish.api.register_host("houdini")
-
+    register_host()
     register_plugins()
 
     pyblish_integration.echo("pyblish: Integration loaded..")
+
+
+def register_host():
+    """Register supported hosts"""
+    pyblish.api.register_host("hpython")
+    pyblish.api.register_host("houdini")
 
 
 def register_plugins():
