@@ -1,6 +1,11 @@
 pyblish-houdini Changelog
 ======================
 
+Version 0.2.1
+-------------
+
+- Exposed `register_host`
+
 Version 0.2.0
 -------------
 
