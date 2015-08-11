@@ -1,6 +1,11 @@
 pyblish-houdini Changelog
 ======================
 
+Version 0.2.2
+-------------
+
+- Added argument `port` to setup()
+
 Version 0.2.1
 -------------
 
