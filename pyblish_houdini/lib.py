@@ -10,7 +10,7 @@ import pyblish.api
 import hou
 
 # Local libraries
-import plugins
+from . import plugins
 
 self = sys.modules[__name__]
 self._has_been_setup = False
