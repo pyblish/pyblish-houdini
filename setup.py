@@ -31,7 +31,7 @@ setup(
     license="LGPL",
     author="Abstract Factory and Contributors",
     author_email="marcus@abstractfactory.io",
-    description="Maya Pyblish package",
+    description="Houdini Pyblish package",
     zip_safe=False,
     classifiers=classifiers,
     package_data={
