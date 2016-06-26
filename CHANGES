@@ -1,6 +1,12 @@
 pyblish-houdini Changelog
 ======================
 
+Version 1.0.0
+-------------
+
+- Added support for register_gui()
+- DEPRECATED: port and console arguments of setup()
+
 Version 0.2.2
 -------------
 
