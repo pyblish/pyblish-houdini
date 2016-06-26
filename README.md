@@ -52,6 +52,27 @@ pyblish_houdini.setup()
 <br>
 <br>
 
+### Persistence
+
+In order to have Pyblish become a permanent member of each Houdini session, you can add the supplied `houdini_path/` folder to your `HOUDINI_PATH` environment variable.
+
+Take care however, for this variable has an unexpected quirk on Windows platforms.
+
+```bash
+$ set "HOUDINI_PATH=&;C:\pythonpath\pyblish_houdini\houdini_path"
+```
+
+Note the `&` sign, and the fact that the entire expression is wrapped in quotation marks.
+
+With this variable set, you should find a new File-menu item.
+
+![image](https://cloud.githubusercontent.com/assets/2152766/16362652/866de682-3bac-11e6-818a-cc711e04a1af.png)
+
+<br>
+<br>
+<br>
+
+
 ### Documentation
 
 - [Under the hood](#under-the-hood)
@@ -69,8 +90,6 @@ The `setup()` command will:
 
 1. Register Houdini related ["hosts"](http://api.pyblish.com/pages/Plugin.hosts.html), allowing plug-ins to be filtered accordingly.
 3. Register a minimal set of plug-ins that are common across all integrations.
-
-![image](https://cloud.githubusercontent.com/assets/2152766/16318991/49012c02-3989-11e6-9602-7ec3d7823b77.png)
 
 <br>
 <br>
