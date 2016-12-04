@@ -59,12 +59,16 @@ In order to have Pyblish become a permanent member of each Houdini session, you 
 Take care however, for this variable has an unexpected quirk on Windows platforms.
 
 ```bash
-$ set "HOUDINI_PATH=&;C:\pythonpath\pyblish_houdini\houdini_path"
+$ set "HOUDINI_PATH=C:\pythonpath\pyblish_houdini\houdini_path;&"
 ```
 
 Note the `&` sign, and the fact that the entire expression is wrapped in quotation marks.
 
+If you use batch script files on Windows to launch Houdini, you'll need to escape the "&" character with "^&".
+
 With this variable set, you should find a new File-menu item.
+
+**NOTE: If you use "HOUDINI_PATH" in houdini.env, make sure you setup the path here instead or inherit the environment with "$HOUDINI_PATH"**
 
 ![image](https://cloud.githubusercontent.com/assets/2152766/16362652/866de682-3bac-11e6-818a-cc711e04a1af.png)
 
