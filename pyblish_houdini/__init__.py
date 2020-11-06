@@ -1,6 +1,6 @@
-from version import *
+from .version import *
 
-from lib import (
+from .lib import (
     show,
     setup,
     register_plugins,
