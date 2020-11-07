@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pyblish/pyblish-houdini.svg?branch=master)](https://travis-ci.org/pyblish/pyblish-houdini)
 
-Pyblish integration for SideFx Houdini 8-15.
+Pyblish integration for SideFx Houdini 8-18.5.
 
 <br>
 <br>
