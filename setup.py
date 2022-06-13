@@ -40,6 +40,7 @@ setup(
             "houdini_path/*.xml",
             "houdini_path/python2.6libs/*.py",
             "houdini_path/python2.7libs/*.py",
+            "houdini_path/python3.7libs/*.py",
         ]
     },
     install_requires=[
