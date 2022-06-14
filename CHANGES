@@ -1,5 +1,15 @@
 pyblish-houdini Changelog
-======================
+=========================
+
+Version 1.1.1
+-------------
+
+- Add missing package_data to support Python 3
+
+Version 1.1.0
+-------------
+
+- Port to Python 3
 
 Version 1.0.0
 -------------

@@ -18,6 +18,8 @@ classifiers = [
     "Programming Language :: Python :: 2",
     "Programming Language :: Python :: 2.6",
     "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Utilities"
 ]
@@ -40,6 +42,7 @@ setup(
             "houdini_path/*.xml",
             "houdini_path/python2.6libs/*.py",
             "houdini_path/python2.7libs/*.py",
+            "houdini_path/python3.7libs/*.py",
         ]
     },
     install_requires=[
